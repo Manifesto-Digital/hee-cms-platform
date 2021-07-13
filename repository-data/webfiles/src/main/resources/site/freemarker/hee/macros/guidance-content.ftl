@@ -45,6 +45,9 @@
                                             <#case "uk.nhs.hee.web.beans.Contact">
                                                 <@hee.contact block=block/>
                                                 <#break>
+                                            <#case "uk.nhs.hee.web.beans.TabsReference">
+                                                <@hee.tabs tabs=block/>
+                                                <#break>
                                             <#default>
                                         </#switch>
                                     </#list>

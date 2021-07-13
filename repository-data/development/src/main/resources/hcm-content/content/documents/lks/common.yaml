@@ -12,7 +12,7 @@
     jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
     jcr:uuid: 2662c3d6-4f25-48d1-82b0-339489c61b0b
     hippo:name: Content Cards
-    hippostd:foldertype: [new-content-card]
+    hippostd:foldertype: [new-content-card, new-ContentCard-folder]
     hippotranslation:id: fea0ba83-e268-4df7-bdf7-86dd1eedda6c
     hippotranslation:locale: en
     /search-bank:
@@ -1617,6 +1617,188 @@
           /hee:document:
             jcr:primaryType: hippo:mirror
             hippo:docbase: ed4d5d76-15ab-4472-b368-33302a2c0599
+    /cms:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated']
+      hippostd:foldertype: [new-content-card, new-ContentCard-folder]
+      hippotranslation:id: 61183572-1f13-4a66-9512-ba98bbb93773
+      hippotranslation:locale: en
+      /components:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 0d5a8e31-b360-4677-aae5-eeb2055c79fd
+        hippo:name: Components
+        hippo:versionHistory: 94257cb4-b699-4bd5-98f1-5ea854b66890
+        /components[1]:
+          jcr:primaryType: hee:ContentCard
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: f5af3be4-8b32-47ec-a076-39ac817990b9
+          hee:description: Available components
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-07-13T01:04:36.138+01:00
+          hippostdpubwf:lastModificationDate: 2021-07-13T01:45:12.406+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 4e8ba6e4-2ddf-4c25-880f-10d02ebc4e4e
+          hippotranslation:locale: en
+          /hee:header:
+            jcr:primaryType: hee:link
+            hee:text: Components
+            hee:url: ''
+            hippostdpubwf:createdBy: ''
+            hippostdpubwf:creationDate: 2021-01-27T11:56:00.099Z
+            hippostdpubwf:lastModificationDate: 2021-01-27T11:56:00.098Z
+            hippostdpubwf:lastModifiedBy: ''
+            hippotranslation:id: document-type-locale-id
+            hippotranslation:locale: document-type-locale
+            /hee:document:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: 8f00b382-b36b-4a22-afe1-04fa16fd9106
+        /components[2]:
+          jcr:primaryType: hee:ContentCard
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 8bfc2995-6bd7-4ee2-9cde-2a2d53c8f255
+          hee:description: Available components
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-07-13T01:04:36.138+01:00
+          hippostdpubwf:lastModificationDate: 2021-07-13T01:45:12.378+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 4e8ba6e4-2ddf-4c25-880f-10d02ebc4e4e
+          hippotranslation:locale: en
+          /hee:header:
+            jcr:primaryType: hee:link
+            hee:text: Components
+            hee:url: ''
+            hippostdpubwf:createdBy: ''
+            hippostdpubwf:creationDate: 2021-01-27T11:56:00.099Z
+            hippostdpubwf:lastModificationDate: 2021-01-27T11:56:00.098Z
+            hippostdpubwf:lastModifiedBy: ''
+            hippotranslation:id: document-type-locale-id
+            hippotranslation:locale: document-type-locale
+            /hee:document:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: 8f00b382-b36b-4a22-afe1-04fa16fd9106
+        /components[3]:
+          jcr:primaryType: hee:ContentCard
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a7c4bf31-22bf-4250-8b73-c29b06d799f6
+          hee:description: Available components
+          hippo:availability: [live]
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-07-13T01:04:36.138+01:00
+          hippostdpubwf:lastModificationDate: 2021-07-13T01:45:12.378+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-07-13T01:45:15.680+01:00
+          hippotranslation:id: 4e8ba6e4-2ddf-4c25-880f-10d02ebc4e4e
+          hippotranslation:locale: en
+          /hee:header:
+            jcr:primaryType: hee:link
+            hee:text: Components
+            hee:url: ''
+            hippostdpubwf:createdBy: ''
+            hippostdpubwf:creationDate: 2021-01-27T11:56:00.099Z
+            hippostdpubwf:lastModificationDate: 2021-01-27T11:56:00.098Z
+            hippostdpubwf:lastModifiedBy: ''
+            hippotranslation:id: document-type-locale-id
+            hippotranslation:locale: document-type-locale
+            /hee:document:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: 8f00b382-b36b-4a22-afe1-04fa16fd9106
+      /cms-objects:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: df204bde-115a-4d86-82dc-135b684d73f0
+        hippo:name: CMS Objects
+        hippo:versionHistory: bd1fbd0e-c35c-4c23-a3be-ce0390559866
+        /cms-objects[1]:
+          jcr:primaryType: hee:ContentCard
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 53842fd3-27bf-429a-be1a-56fc423062cd
+          hee:description: ''
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-07-13T01:06:25.119+01:00
+          hippostdpubwf:lastModificationDate: 2021-07-13T01:24:56.839+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 74052895-43da-4a45-bc1b-ef711701fbc6
+          hippotranslation:locale: en
+          /hee:header:
+            jcr:primaryType: hee:link
+            hee:text: CMS Objects
+            hee:url: ''
+            hippostdpubwf:createdBy: ''
+            hippostdpubwf:creationDate: 2021-01-27T11:56:00.099Z
+            hippostdpubwf:lastModificationDate: 2021-01-27T11:56:00.098Z
+            hippostdpubwf:lastModifiedBy: ''
+            hippotranslation:id: document-type-locale-id
+            hippotranslation:locale: document-type-locale
+            /hee:document:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: d288febc-3bb2-4d5c-a295-73de61bccd2f
+        /cms-objects[2]:
+          jcr:primaryType: hee:ContentCard
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 0654dcc2-22e8-4d8e-84a7-862ed5af4dea
+          hee:description: ''
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-07-13T01:06:25.119+01:00
+          hippostdpubwf:lastModificationDate: 2021-07-13T01:24:56.813+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 74052895-43da-4a45-bc1b-ef711701fbc6
+          hippotranslation:locale: en
+          /hee:header:
+            jcr:primaryType: hee:link
+            hee:text: CMS Objects
+            hee:url: ''
+            hippostdpubwf:createdBy: ''
+            hippostdpubwf:creationDate: 2021-01-27T11:56:00.099Z
+            hippostdpubwf:lastModificationDate: 2021-01-27T11:56:00.098Z
+            hippostdpubwf:lastModifiedBy: ''
+            hippotranslation:id: document-type-locale-id
+            hippotranslation:locale: document-type-locale
+            /hee:document:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: d288febc-3bb2-4d5c-a295-73de61bccd2f
+        /cms-objects[3]:
+          jcr:primaryType: hee:ContentCard
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 3fabd162-891e-4bb1-b1b2-ea85fe266580
+          hee:description: ''
+          hippo:availability: [live]
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2021-07-13T01:06:25.119+01:00
+          hippostdpubwf:lastModificationDate: 2021-07-13T01:24:56.813+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2021-07-13T01:25:01.220+01:00
+          hippotranslation:id: 74052895-43da-4a45-bc1b-ef711701fbc6
+          hippotranslation:locale: en
+          /hee:header:
+            jcr:primaryType: hee:link
+            hee:text: CMS Objects
+            hee:url: ''
+            hippostdpubwf:createdBy: ''
+            hippostdpubwf:creationDate: 2021-01-27T11:56:00.099Z
+            hippostdpubwf:lastModificationDate: 2021-01-27T11:56:00.098Z
+            hippostdpubwf:lastModifiedBy: ''
+            hippotranslation:id: document-type-locale-id
+            hippotranslation:locale: document-type-locale
+            /hee:document:
+              jcr:primaryType: hippo:mirror
+              hippo:docbase: d288febc-3bb2-4d5c-a295-73de61bccd2f
   /richtext-blocks:
     jcr:primaryType: hippostd:folder
     jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
@@ -2418,3 +2600,231 @@
           /hee:document:
             jcr:primaryType: hippo:mirror
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /tabs:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: fdaf58ef-fbdb-4b4f-99f3-18ee0d8dca1d
+    hippo:name: Tabs
+    hippostd:foldertype: [new-tabs-folder, new-tabs-document]
+    hippotranslation:id: a166a13d-1be8-4fd1-a853-5870050bf82c
+    hippotranslation:locale: en
+    /eat-well:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 7e48ae25-bb39-487d-af05-09a7aa8aaae2
+      hippo:name: Eat well
+      hippo:versionHistory: 03b85a42-18d0-4b05-a032-e73b3965b15d
+      /eat-well[1]:
+        jcr:primaryType: hee:tabs
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 4f3cce62-2df7-49f7-b2d2-31dff747b9bc
+        hee:tabTitle: Learning
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-07-12T22:39:13.287+01:00
+        hippostdpubwf:lastModificationDate: 2021-07-13T00:29:10.335+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9b60b8cf-1921-4bdb-ab23-d9e6441f00c2
+        hippotranslation:locale: en
+        /hee:tabPanel[1]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Online courses
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Nutrition and food groups</li>
+               <li>5 A Day</li>
+               <li>Food facts</li>
+               <li>&nbsp;</li>
+              </ul>
+        /hee:tabPanel[2]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Events
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Healthy recipes</li>
+               <li>Food tips</li>
+              </ul>
+        /hee:tabPanel[3]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Education
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <div class="app-guides-nav__contents">
+              <ul>
+               <li>Common digestive problems and how to treat them</li>
+               <li>Good foods to help your digestion</li>
+               <li>&nbsp;</li>
+              </ul>
+              </div>
+        /hee:tabPanel[4]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Training
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Eating on a budget</li>
+               <li>Food safety</li>
+               <li>Vegetarians and vegans</li>
+              </ul>
+        /hee:tabPanel[5]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Webinars
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>5 lifestyle tips for a healthy tummy</li>
+               <li>Beat the bloat</li>
+               <li>Should you cut out bread to stop bloating?</li>
+              </ul>
+      /eat-well[2]:
+        jcr:primaryType: hee:tabs
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 1da4fa75-fd60-4520-82c5-6f2553900317
+        hee:tabTitle: Learning
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-07-12T22:39:13.287+01:00
+        hippostdpubwf:lastModificationDate: 2021-07-13T00:29:10.262+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 9b60b8cf-1921-4bdb-ab23-d9e6441f00c2
+        hippotranslation:locale: en
+        /hee:tabPanel[1]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Online courses
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Nutrition and food groups</li>
+               <li>5 A Day</li>
+               <li>Food facts</li>
+               <li>&nbsp;</li>
+              </ul>
+        /hee:tabPanel[2]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Events
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Healthy recipes</li>
+               <li>Food tips</li>
+              </ul>
+        /hee:tabPanel[3]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Education
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <div class="app-guides-nav__contents">
+              <ul>
+               <li>Common digestive problems and how to treat them</li>
+               <li>Good foods to help your digestion</li>
+               <li>&nbsp;</li>
+              </ul>
+              </div>
+        /hee:tabPanel[4]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Training
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Eating on a budget</li>
+               <li>Food safety</li>
+               <li>Vegetarians and vegans</li>
+              </ul>
+        /hee:tabPanel[5]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Webinars
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>5 lifestyle tips for a healthy tummy</li>
+               <li>Beat the bloat</li>
+               <li>Should you cut out bread to stop bloating?</li>
+              </ul>
+      /eat-well[3]:
+        jcr:primaryType: hee:tabs
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 1d50ea5b-672c-4ef8-9103-c2b0860704e3
+        hee:tabTitle: Learning
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-07-12T22:39:13.287+01:00
+        hippostdpubwf:lastModificationDate: 2021-07-13T00:29:10.262+01:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2021-07-13T01:56:38.261+01:00
+        hippotranslation:id: 9b60b8cf-1921-4bdb-ab23-d9e6441f00c2
+        hippotranslation:locale: en
+        /hee:tabPanel[1]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Online courses
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Nutrition and food groups</li>
+               <li>5 A Day</li>
+               <li>Food facts</li>
+               <li>&nbsp;</li>
+              </ul>
+        /hee:tabPanel[2]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Events
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Healthy recipes</li>
+               <li>Food tips</li>
+              </ul>
+        /hee:tabPanel[3]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Education
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <div class="app-guides-nav__contents">
+              <ul>
+               <li>Common digestive problems and how to treat them</li>
+               <li>Good foods to help your digestion</li>
+               <li>&nbsp;</li>
+              </ul>
+              </div>
+        /hee:tabPanel[4]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Training
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>Eating on a budget</li>
+               <li>Food safety</li>
+               <li>Vegetarians and vegans</li>
+              </ul>
+        /hee:tabPanel[5]:
+          jcr:primaryType: hee:tabPanel
+          hee:tabTitle: Webinars
+          /hee:tabBody:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <ul>
+               <li>5 lifestyle tips for a healthy tummy</li>
+               <li>Beat the bloat</li>
+               <li>Should you cut out bread to stop bloating?</li>
+              </ul>

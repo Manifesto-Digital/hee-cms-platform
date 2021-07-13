@@ -1,0 +1,18 @@
+/hst:hst/hst:configurations/lks/hst:workspace/hst:pages/cms-objects-contentpage:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2021-07-13T01:27:48.425+01:00
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    hippo:identifier: 43b034db-240d-480d-9a69-edea2f3c0cd4
+    hst:label: Content Page Main
+    hst:lastmodified: 2021-07-13T01:29:16.761+01:00
+    hst:xtype: hst.vbox
+    /landingpage:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentclassname: uk.nhs.hee.web.components.LandingPageComponent
+      hst:iconpath: images/catalog-component-icons/simple-content.svg
+      hst:label: Landing Page
+      hst:parameternames: [document]
+      hst:parametervalues: [landing-pages/cms-objects]
+      hst:template: landingpage-main

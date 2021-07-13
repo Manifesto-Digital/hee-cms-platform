@@ -227,9 +227,10 @@
       hippo:availability: []
       hippostd:retainable: false
       hippostd:state: draft
+      hippostd:transferable: false
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-02-05T11:06:13.862+07:00
-      hippostdpubwf:lastModificationDate: 2021-06-03T10:54:29.171+01:00
+      hippostdpubwf:lastModificationDate: 2021-07-12T22:41:57.502+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 1af02435-3e4e-4686-891f-75605b70219d
       hippotranslation:locale: en
@@ -254,6 +255,9 @@
         /hee:cards[6]:
           jcr:primaryType: hippo:mirror
           hippo:docbase: 4f1dce33-1e03-4c52-a767-719ac7d9471c
+        /hee:cards[7]:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
     /about[3]:
       jcr:primaryType: hee:landingPage
       jcr:mixinTypes: ['mix:referenceable']
@@ -291,3 +295,76 @@
         /hee:cards[6]:
           jcr:primaryType: hippo:mirror
           hippo:docbase: 4f1dce33-1e03-4c52-a767-719ac7d9471c
+  /cms-objects:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: d288febc-3bb2-4d5c-a295-73de61bccd2f
+    hippo:name: CMS Objects
+    hippo:versionHistory: 939c1969-5d86-4986-bba4-d57bcd50db71
+    /cms-objects[1]:
+      jcr:primaryType: hee:landingPage
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4a8e1b47-f58b-473d-a47d-db36428e99e0
+      hee:summary: "This page is of type Landing\r\nPage detailing objects that are\
+        \ available"
+      hee:title: CMS Objects
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-07-13T00:58:02.106+01:00
+      hippostdpubwf:lastModificationDate: 2021-07-13T01:05:57.442+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 95b23a02-88df-46f7-94ae-e0f528a7c41b
+      hippotranslation:locale: en
+      /hee:contentCards:
+        jcr:primaryType: hee:contentCards
+        hee:header: Content Cards Header
+        /hee:cards:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 0d5a8e31-b360-4677-aae5-eeb2055c79fd
+    /cms-objects[2]:
+      jcr:primaryType: hee:landingPage
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d389dde3-d0df-4e8e-937b-4add400d2883
+      hee:summary: "This page is of type Landing\r\nPage detailing objects that are\
+        \ available"
+      hee:title: CMS Objects
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-07-13T00:58:02.106+01:00
+      hippostdpubwf:lastModificationDate: 2021-07-13T01:05:57.393+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 95b23a02-88df-46f7-94ae-e0f528a7c41b
+      hippotranslation:locale: en
+      /hee:contentCards:
+        jcr:primaryType: hee:contentCards
+        hee:header: Content Cards Header
+        /hee:cards:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 0d5a8e31-b360-4677-aae5-eeb2055c79fd
+    /cms-objects[3]:
+      jcr:primaryType: hee:landingPage
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 73dc9fe3-fe06-4ae7-a1f2-8c03b6823a19
+      hee:summary: "This page is of type Landing\r\nPage detailing objects that are\
+        \ available"
+      hee:title: CMS Objects
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-07-13T00:58:02.106+01:00
+      hippostdpubwf:lastModificationDate: 2021-07-13T01:05:57.393+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-07-13T01:06:01.021+01:00
+      hippotranslation:id: 95b23a02-88df-46f7-94ae-e0f528a7c41b
+      hippotranslation:locale: en
+      /hee:contentCards:
+        jcr:primaryType: hee:contentCards
+        hee:header: Content Cards Header
+        /hee:cards:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: 0d5a8e31-b360-4677-aae5-eeb2055c79fd

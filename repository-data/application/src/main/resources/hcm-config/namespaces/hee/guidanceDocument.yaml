@@ -135,7 +135,7 @@ definitions:
           /contentBlocks:
             jcr:primaryType: frontend:plugin
             caption: Content Blocks
-            compoundList: hee:ActionLink,hee:contact,hippostd:html,hippogallerypicker:imagelink,hee:richTextReference,hee:StatementBlock,hee:YellowAlertBlock
+            compoundList: hee:ActionLink,hee:contact,hippostd:html,hippogallerypicker:imagelink,hee:richTextReference,hee:StatementBlock,hee:tabsReference,hee:YellowAlertBlock
             contentPickerType: links
             field: contentBlocks
             plugin.class: org.onehippo.forge.contentblocks.ContentBlocksFieldPlugin

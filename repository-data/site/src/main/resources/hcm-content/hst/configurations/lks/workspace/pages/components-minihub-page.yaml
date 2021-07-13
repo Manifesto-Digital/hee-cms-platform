@@ -1,0 +1,18 @@
+/hst:hst/hst:configurations/lks/hst:workspace/hst:pages/components-minihub-page:
+  jcr:primaryType: hst:component
+  hst:lastmodified: 2021-07-13T01:41:03.098+01:00
+  hst:referencecomponent: hst:abstractpages/base
+  /main:
+    jcr:primaryType: hst:containercomponent
+    hippo:identifier: 08618578-df7c-4816-a986-c26d2b7ba5de
+    hst:label: Main MiniHub
+    hst:lastmodified: 2021-07-13T01:44:24.937+01:00
+    hst:xtype: hst.vbox
+    /minihub:
+      jcr:primaryType: hst:containeritemcomponent
+      hst:componentclassname: uk.nhs.hee.web.components.MiniHubComponent
+      hst:iconpath: images/catalog-component-icons/simple-content.svg
+      hst:label: MiniHub
+      hst:parameternames: [document]
+      hst:parametervalues: [minihubs/components]
+      hst:template: minihub-main

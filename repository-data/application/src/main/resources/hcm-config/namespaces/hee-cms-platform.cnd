@@ -124,3 +124,12 @@
 [hee:searchBank] > hee:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[hee:tabPanel] > hippo:compound, hippostd:relaxed
+  orderable
+
+[hee:tabs] > hee:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[hee:tabsReference] > hippo:compound, hippostd:relaxed
+  orderable
+

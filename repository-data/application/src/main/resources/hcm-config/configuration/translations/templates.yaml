@@ -17,7 +17,7 @@ definitions:
       new-afterform-document: new AfterForm document
       new-content-card: new content card
       new-listing-document: new listing document
-      new-richtext-block: new RichText block      
+      new-richtext-block: new RichText block
       new-department: new department
       new-person: new person
       new-contact-card: new contact card
@@ -35,6 +35,9 @@ definitions:
       new-fileLinksCard-folder: new fileLinksCard folder
       new-ctaCard-document: new ctaCard document
       new-ctaCard-folder: new ctaCard folder
+      new-tabs-document: new tabs document
+      new-tabs-folder: new tabs folder
+      new-ContentCard-folder: new ContentCard folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit

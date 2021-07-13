@@ -74,3 +74,61 @@
       /hee:guidancePages[2]:
         jcr:primaryType: hippo:mirror
         hippo:docbase: 9071bfc1-35e4-4cb8-852c-c91f97fb43f0
+  /components:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 8f00b382-b36b-4a22-afe1-04fa16fd9106
+    hippo:name: Components
+    hippo:versionHistory: 79f33acf-7ba1-41a0-b55b-46ff9dd653c5
+    /components[1]:
+      jcr:primaryType: hee:MiniHub
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7f9fd4ff-a3bf-4023-8e11-dcce675461de
+      hee:title: Components
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-07-13T01:39:55.797+01:00
+      hippostdpubwf:lastModificationDate: 2021-07-13T01:47:23.336+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e4e7727a-a2a6-49e3-9fc0-62a322517508
+      hippotranslation:locale: en
+      /hee:guidancePages:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b194dfbc-3f69-43f4-ab71-da5d596a3ae8
+    /components[2]:
+      jcr:primaryType: hee:MiniHub
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: eeeca7bf-7d9e-4daa-ae19-9b19e1fc22f5
+      hee:title: Components
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-07-13T01:39:55.797+01:00
+      hippostdpubwf:lastModificationDate: 2021-07-13T01:47:35.029+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e4e7727a-a2a6-49e3-9fc0-62a322517508
+      hippotranslation:locale: en
+      /hee:guidancePages:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b194dfbc-3f69-43f4-ab71-da5d596a3ae8
+    /components[3]:
+      jcr:primaryType: hee:MiniHub
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7b078430-b9aa-4401-b193-7b7ae171c76b
+      hee:title: Components
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-07-13T01:39:55.797+01:00
+      hippostdpubwf:lastModificationDate: 2021-07-13T01:47:35.029+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-07-13T01:47:36.763+01:00
+      hippotranslation:id: e4e7727a-a2a6-49e3-9fc0-62a322517508
+      hippotranslation:locale: en
+      /hee:guidancePages:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: b194dfbc-3f69-43f4-ab71-da5d596a3ae8

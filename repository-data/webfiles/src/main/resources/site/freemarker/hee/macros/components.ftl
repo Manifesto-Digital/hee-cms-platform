@@ -10,3 +10,4 @@
 <#include "statement-block.ftl">
 <#include "yellow-alert-block.ftl">
 <#include "cta-card.ftl">
+<#include "tabs.ftl">
